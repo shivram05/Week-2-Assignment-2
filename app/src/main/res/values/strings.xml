@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Week-2-Assignment2</string>
+    <string name="gues_a_checmical_name">Gues a checmical name</string>
+    <string name="type_a_new_checmical_name_to_add">Type a new checmical name to add</string>
+    <string name="add_checmical">Add Checmical</string>
+    <string name="chemicalimage">chemicalImage</string>
+    <string name="guess">Guess</string>
+    <string name="enter_a_chemical_name_or_guess">Enter a chemical name or guess:</string>
+    <string name="chemical_is_already_available">Chemical \' %1$s \' is already available.</string>
+    <string name="chemical_added_successfully">Chemical \' %1$s \' added successfully.</string>
+    <string name="congratulations_you_guessed_it_right_it_was">Congratulations! You guessed it right. It was %1$s.</string>
+    <string name="sorry_wrong_guess_the_correct_answer_was">Sorry, wrong guess. The correct answer was %1$s.</string>
+    <string name="new_chemical_field_cannot_be_empty">New Chemical Field Cannot be empty</string>
+    <string name="guess_chemical_field_cannot_be_empty">Guess Chemical Field Cannot be empty</string>
+    <string name="please_add_new_chemical_to_guess_it">Please add new chemical to guess it.</string>
+</resources>
