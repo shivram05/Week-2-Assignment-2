@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity() {
                 }else{
                     chemicalNameList.add(newChemical)
                     mainBinding.chemicalTextView.text = getString(R.string.chemical_added_successfully, newChemical)
-                    mainBinding.newChemicalEditText.text.clear()
                 }
             }else{
                 Toast.makeText(this,getString(R.string.new_chemical_field_cannot_be_empty), Toast.LENGTH_SHORT).show()
@@ -41,7 +40,6 @@ class MainActivity : AppCompatActivity() {
                 }else{
                     Toast.makeText(this,getString(R.string.please_add_new_chemical_to_guess_it), Toast.LENGTH_SHORT).show()
                 }
-                mainBinding.guessChemicalNameEditText.text.clear()
             }else{
                 Toast.makeText(this,getString(R.string.guess_chemical_field_cannot_be_empty), Toast.LENGTH_SHORT).show()
             }
